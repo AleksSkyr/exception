@@ -2,17 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-        Registration.regist("Sky", "abc","abc");
-//        System.out.print("Введите логин: ");
-//        Scanner scan = new Scanner(System.in);
-//        String login = scan.nextLine();
-//        System.out.print("Введите пароль: ");
-//        String password = scan.nextLine();
-//        System.out.print("Повторно введите пароль: ");
-//        String confirmPassword = scan.nextLine();
-
-
-
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Введите логин: ");
+        String loginS = scan.nextLine();
+        System.out.print("Введите пароль: ");
+        String passwordS = scan.nextLine();
+        System.out.print("Повторно введите пароль: ");
+        String confirmPasswordS = scan.nextLine();
+        Registration.regist(loginS, passwordS, confirmPasswordS);
     }
 }
