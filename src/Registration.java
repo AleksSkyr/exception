@@ -1,6 +1,6 @@
 public class Registration {
 
-    private static final String CHARS = "ABCDEFGHIGKLMNOPQRSTYUWXZ";
+    private static final String CHARS = "abcdefghijklmnopqrstuywxz";
 
     public static boolean regist(String login, String password, String confirmPassword) {
         checkLogin(login);

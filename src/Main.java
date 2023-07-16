@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Registration.regist("AtretAB", "","");
+        Registration.regist("ABC", "","");
 //        System.out.print("Введите логин: ");
 //        Scanner scan = new Scanner(System.in);
 //        String login = scan.nextLine();
